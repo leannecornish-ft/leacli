@@ -30,6 +30,8 @@ USAGE
 <!-- commands -->
 * [`leacli hello [FILE]`](#leacli-hello-file)
 * [`leacli help [COMMAND]`](#leacli-help-command)
+* [`leacli ins [FILE]`](#leacli-ins-file)
+* [`leacli stars REPOSITORY`](#leacli-stars-repository)
 
 ## `leacli hello [FILE]`
 
@@ -67,4 +69,31 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
+## `leacli ins [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ leacli ins [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/ins.ts](https://github.com/leannecornish-ft/leacli/blob/v0.0.0/src/commands/ins.ts)_
+
+## `leacli stars REPOSITORY`
+
+show the github stars on a repository
+
+```
+USAGE
+  $ leacli stars REPOSITORY
+```
+
+_See code: [src/commands/stars.ts](https://github.com/leannecornish-ft/leacli/blob/v0.0.0/src/commands/stars.ts)_
 <!-- commandsstop -->
